@@ -1,7 +1,7 @@
 const gulp= require('gulp');
 const {series}=require('gulp');
 const uglifycss=require('gulp-uglifycss');
-const sass = require('gulp-sass');
+var sass = require('gulp-sass')(require('sass'));
 const concat= require('gulp-concat');
 
 function transformacaoCss(){
