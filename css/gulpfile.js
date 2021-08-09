@@ -1,7 +1,7 @@
 const gulp= require('gulp');
 const {series}=require('gulp');
 const uglifycss=require('gulp-uglifycss');
-var sass = require('gulp-sass')(require('sass'));
+var sass = require('gulp-sass')(require('sass')); // a linha correta é está. o gulp-sass 5 não tem copilador.
 const concat= require('gulp-concat');
 
 function transformacaoCss(){
